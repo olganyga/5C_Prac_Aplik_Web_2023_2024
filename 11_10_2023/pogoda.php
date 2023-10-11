@@ -8,24 +8,57 @@
 </head>
 <body>
     <header>
-        <div>
+        <div class="hleft">
             <img src="logo.png" alt="meteo">
         </div>
-        <div>
-
+        <div class="hmiddle">
+            <h1>Prognoza dla Wrocławia</h1>
         </div>
-        <div>
-
+        <div class="hright">
+            <p>maj, 2019r.</p>
         </div>
     </header>
     <main>
+    <table>
+        <td>DATA</td>
+        <td>TEMPERATURA W NOCY</td>
+        <td>TEMPERATURA W DZIEŃ</td>
+        <td>OPADY [mm/h]</td>
+        <td>CIŚNIENIE [hPa]</td>
+<?php 
+    $host = "localhost";
+    $user = "root";
+    $pass = "";
+    $db = "prognoza";
 
+    $polaczenie = mysqli_connect($host, $user, $pass, $db);
+
+    $zapytanie = "SELECT * FROM pogoda";
+
+    $result = mysqli_query($polaczenie, $zapytanie);
+    while($row = mysqli_fetch_row($result)){
+        echo "<tr>";
+        echo "<td>$row[2]</td>";
+        echo "<td>$row[3]</td>";
+        echo "<td>$row[4]</td>";
+        echo "<td>$row[5]</td>";
+        echo "<td>$row[6]</td>";
+        echo "</tr>";
+    }
+    
+?>
+    </table>
     </main>
     <div class="map">
-
+        <div class="mleft">
+        <img src="obraz.jpg" alt="„Polska, Wrocław">
+        </div>
+        <div class="mright">
+            <a href="kwerendy.txt">Pobierz kwerendy</a>
+        </div>
     </div>
     <footer>
-
+    <p>Stronę wykonała: Olga Nyga</p>
     </footer>
 </body>
 </html>

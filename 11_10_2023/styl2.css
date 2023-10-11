@@ -1,0 +1,50 @@
+body{
+    font-family: Helvetica;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+div.hleft,.hright{
+    background-color: rgb(70, 130, 180);
+    color: white;
+    height: 80px;
+    width: 25%;
+}
+div.hmiddle{
+    background-color: rgb(70, 130, 180);
+    color: white;
+    width: 50%;
+    height: 80px;
+    text-align: center;
+}
+
+main{
+    background-color: rgb(224, 255, 255);
+    padding: 40px;
+}
+
+div.map{
+    display: flex;
+    justify-content: center;
+}
+
+div.mleft,.mright{
+    background-color: rgb(70, 130, 180);
+    width: 50%;
+    height: 200px;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(224, 255, 255);
+}
+
+table{
+    border: 1px, solid, blue;
+    
+}
+
