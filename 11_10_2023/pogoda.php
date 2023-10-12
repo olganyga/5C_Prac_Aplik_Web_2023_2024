@@ -20,11 +20,11 @@
     </header>
     <main>
     <table>
-        <td>DATA</td>
-        <td>TEMPERATURA W NOCY</td>
-        <td>TEMPERATURA W DZIEŃ</td>
-        <td>OPADY [mm/h]</td>
-        <td>CIŚNIENIE [hPa]</td>
+        <th>DATA</th>
+        <th>TEMPERATURA W NOCY</th>
+        <th>TEMPERATURA W DZIEŃ</th>
+        <th>OPADY [mm/h]</th>
+        <th>CIŚNIENIE [hPa]</th>
 <?php 
     $host = "localhost";
     $user = "root";

@@ -44,7 +44,26 @@ footer{
 }
 
 table{
-    border: 1px, solid, blue;
-    
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: blue;
+    border-collapse: collapse;
+}
+
+td{
+    border-width: 1px;
+    border-style: solid;
+    border-color: blue;
+    border-collapse: collapse; 
+}
+
+th{
+    background-color: blue;
+    color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: blue;
+    border-collapse: collapse; 
 }
 
