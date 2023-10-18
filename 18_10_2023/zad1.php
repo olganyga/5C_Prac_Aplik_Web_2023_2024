@@ -59,6 +59,8 @@
   </br>
     <a href="zad3.php">Usuń tabelę</a>
   </br>
+  <a href="zad4.php">Zaktualizuj tabelę</a>
+  </br>
       <a href="tabela.php">Pokaż tabele</a>
 </body>
 </html>

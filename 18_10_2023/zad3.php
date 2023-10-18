@@ -42,6 +42,8 @@
   </br>
     <a href="zad2.php">Wyszukaj tabelę po ID</a>
   </br>
+  <a href="zad4.php">Zaktualizuj tabelę</a>
+  </br>
       <a href="tabela.php">Pokaż tabele</a>
 </body>
 </html>

@@ -6,8 +6,10 @@
     <title>dodaj tabele</title>
 </head>
 <body>
-    <h1>Dodawanie wiersza do bazy:</h1>
+    <h1>Aktualizowanie wiersza bazy danych:</h1>
     <form method="post">
+        <p>Podaj ID tabeli której dane chcesz zmienić:</p>
+        <input type="number" name="id">
         <p>id miasta <a href="id_miasta.html">(więcej informacji)</a></p>
         <input type="number" name="miasto">
         <p>data prognozy</p>
@@ -32,6 +34,7 @@
     $polaczenie = mysqli_connect($host, $user, $pass, $db);
 
     if (!empty($_POST)){
+        @$id = $_POST["id"];
         @$miasto = $_POST["miasto"];
         @$data = $_POST["data"];
         @$temp_noc = $_POST["temp_noc"];
@@ -40,11 +43,10 @@
         @$cis = $_POST["cis"];
 
 
-    $sql = "INSERT INTO pogoda (miasta_id, data_prognozy, temperatura_noc, temperatura_dzien, opady, cisnienie) 
-    VALUES ($miasto, '$data', $temp_noc, $temp_dzien, $opad, $cis)";
+    $sql = "UPDATE pogoda SET miasta_id=$miasto, data_prognozy=$data, temperatura_noc=$temp_noc, temperatura_dzien=$temp_dzien, opady=$opad, cisnienie=$cis WHERE id=$id;";
 
     if (mysqli_query($polaczenie, $sql)) {
-      echo "Tabela dodana pomyślnie";
+      echo "Tabela zaktualizowana pomyślnie";
     } else {
       echo "Błąd: " . mysqli_error($polaczenie);
     }
@@ -53,7 +55,9 @@
     }
     ?>
     </br></br>
-    
+
+    <a href="zad1.php">Dodaj tabelę</a>
+</br>
     <a href="zad2.php">Wyszukaj tabelę po ID</a>
   </br>
     <a href="zad3.php">Usuń tabelę</a>
