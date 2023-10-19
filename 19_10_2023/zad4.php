@@ -6,13 +6,11 @@
     <title>koszt dowozu pizzy</title>
 </head>
 <body>
-<form method="post" action="koszt.php">
-        <label>Koszt benzyny:</label>
-        <input type="text" name="benz">
-        <label>Ilość km:</label>
-        <input type="number" name="km">
-        <label>Średnie spalanie:</label>
-        <input type="text" name="srsp">
+<form method="post" action="pizza.php">
+        <label>Odległość km:</label>
+        <input type="number" name="odl">
+        <label>Czy ciepła</label>
+        <input type="checkbox" name="cc">
         <input type="submit">
     </form>
 </body>
