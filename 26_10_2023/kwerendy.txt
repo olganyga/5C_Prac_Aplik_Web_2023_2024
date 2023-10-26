@@ -1,1 +1,2 @@
 1. SELECT id, nr_rejsu, czas, kierunek, status_lotu FROM odloty ORDER BY czas DESC;
+2. UPDATE przyloty SET status_lotu="planowy" WHERE nr_rejsu="LH9829";
