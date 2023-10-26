@@ -1,0 +1,52 @@
+header{
+    display: flex;
+    justify-content: center;
+}
+div.hl{
+    text-align: center;
+    width: 75%;
+    height: 150px;
+    font-size: 200%;
+}
+div.hr{
+    width: 25%;
+    height: 150px;
+}
+main{
+    background-color: RGB(128, 0, 0);
+    padding: 50px;
+    text-transform: uppercase;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+div.p{
+    width: 20%;
+    padding-top: 90px;
+}
+div.t{
+    width: 20%;
+    padding-top: 90px;
+}
+div.d{
+    text-align: center;
+    width: 60%;
+}
+body{
+    font-family: Arial;
+    background-color: RGB(244, 164, 96);
+    color: white;
+}
+p{
+    font-size: 150%;
+    border: 2px dotted RGB(169, 169, 169);
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid RGB(192, 192, 192);
+    padding: 5px;
+}
