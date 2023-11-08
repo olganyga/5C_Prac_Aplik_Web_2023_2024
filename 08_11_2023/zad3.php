@@ -9,6 +9,7 @@
 <form method="post">
     <p>podaj liczbę, z której chcesz obliczyć wartość bezwzględną</p>
     <input type="number" name="l">
+    <input type="submit">
 </form>
     <?php
     if (!empty($_POST)){

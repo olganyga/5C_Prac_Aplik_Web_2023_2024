@@ -9,6 +9,7 @@
 <form method="post">
     <p>podaj liczbę, z której chcesz obliczyć pierwiastek</p>
     <input type="number" name="p">
+    <input type="submit">
 </form>
     <?php
     if (!empty($_POST)){
