@@ -1,0 +1,4 @@
+Pętle umożliwiają powtórzenie pewnych instrukcji dopóki nie zostanie
+spełniony warunek kończący pętle. Dzięki temu można w bardzo łatwy
+i krótki sposób wypisać na przykład ten sam lub podobny komunikat
+kilka lub kilaset razy.
