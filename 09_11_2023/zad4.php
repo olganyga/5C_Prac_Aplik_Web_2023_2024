@@ -8,29 +8,23 @@
 <body>
     <?php
     echo "pętla for: </br>";
-    for($i = 100; $i<=125; $i++){
-        if($i%5==0){
-            echo $i . " ";
-        }
+    for($i = 1; $i<=10; $i++){
+        echo "√$i = " . sqrt($i) . "</br>";
     }
     echo "</br>";
     echo "pętla while </br>";
-    $s = 100;
-    while($s<=125){
-        if($s%5==0){
-        echo $s . " ";
-        }
+    $s = 1;
+    while($s<=10){
+        echo "√$s = " . sqrt($s) . "</br>";
         $s++;
     }
     echo "</br>";
     echo "pętla do...while </br>";
-    $w=100;
+    $w=1;
     do{
-        if($w%5==0){
-            echo $w . " ";
-            }
-            $w++;
-    }while($w<=125)
+        echo "√$w = " . sqrt($w) . "</br>";
+        $w++;
+    }while($w<=10)
     ?>
 </body>
 </html>
