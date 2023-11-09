@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-    $s = 10;
+    $s = 0;
     $i = 10;
     while($s<1000){
             $s += $i;
