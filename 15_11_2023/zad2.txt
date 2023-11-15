@@ -1,0 +1,16 @@
+Zalety:
+- Kategoryzowanie danych - administratorzy baz danych mogą łatwo kategoryzować i przechowywać dane w relacyjnej 
+                           bazie danych, które następnie mogą być odpytywane i filtrowane w celu wydobycia 
+                           informacji do raportów;
+- Dokładność - dane są przechowywane tylko raz, co eliminuje deduplikację danych w procedurach przechowywania;
+- Łatwość użytkowania - Złożone zapytania są łatwe do wykonania przez użytkowników za pomocą SQL
+- Współpraca - wielu użytkowników może mieć dostęp do tej samej bazy danych
+
+Wady:
+- Struktura - relacyjne bazy danych wymagają dużo struktury i pewnego poziomu planowania, ponieważ kolumny 
+              muszą być zdefiniowane, a dane muszą poprawnie pasować do nieco sztywnych kategorii;
+- Problemy z utrzymaniem - programiści i inni pracownicy odpowiedzialni za bazę danych muszą poświęcić 
+                           czas na zarządzanie i optymalizację bazy danych w miarę dodawania do niej danych;
+- Nieelastyczność - bazy danych nie są idealne do obsługi dużych ilości nieustrukturyzowanych danych;
+- Brak skalowalności - relacyjne bazy danych nie skalują się dobrze horyzontalnie w ramach fizycznych 
+                       struktur pamięci masowej z wieloma serwerami.
