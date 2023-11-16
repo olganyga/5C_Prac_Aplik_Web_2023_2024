@@ -14,10 +14,10 @@
 
     $polaczenie = mysqli_connect("localhost", "root", "", "egz1_badanie");
 
-    $sql = "INSERT INTO klasa (id, rok_urodzenia, plec, uwagi) VALUES (NULL, '$rok', '$plec', '$uwagi')";
+    $sql = "INSERT INTO dane (id, rok_urodzenia, plec, uwagi) VALUES (NULL, '$rok', '$plec', '$uwagi')";
 
     if (mysqli_query($polaczenie, $sql)) {
-      echo "Tabela zaktualizowana pomyślnie";
+      echo "Dziękujemy za udział w ankiecie";
     } else {
       echo "Błąd: " . mysqli_error($polaczenie);
     }
