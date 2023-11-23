@@ -1,0 +1,11 @@
+body{
+    font-family: Arial;
+}
+h1{
+    width: 100%;
+    text-align: center;
+}
+div.center{
+    display: flex;
+    justify-content: center;
+}
