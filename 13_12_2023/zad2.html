@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zad2</title>
+</head>
+<body>
+    <form>
+        <label>Imię:</label>
+        <input type="text" id="imie" required>
+    </br></br>
+        <label>Nazwisko:</label>
+        <input type="text" id="nazwisko" required>
+    </br></br>
+        <label>Wiek:</label>
+        <input type="number" id="wiek" required>
+    </br></br>
+    </form>
+    <button type="" onclick="infouczen()">Wykonaj</button>
+    <script>
+        function infouczen(){
+        var name = document.getElementById('imie').value;
+        var sn = document.getElementById("nazwisko").value;
+        var age = document.getElementById("wiek").value;
+
+        alert('Imie: ' + name + ' Nazwisko: ' + sn + ' Wiek: ' + age)
+    }
+
+    </script>
+</body>
+</html>

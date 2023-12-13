@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zad5</title>
+</head>
+<body>
+    <form>
+        <h2>Podaj adres:</h2>
+        <label>Nazwa szkoły:</label>
+        <input type="text" id="nazwa" required>
+    </br></br>
+        <label>Kod:</label>
+        <input type="text" id="kod" required>
+    </br></br>
+        <label>Miejscowość:</label>
+        <input type="text" id="miejs" required>
+    </br></br>
+        <label>Ulica:</label>
+        <input type="text" id="ul" required>
+    </br></br>
+    <label>Numer:</label>
+        <input type="number" id="num" required>
+    </br></br>
+    <label>Nr telefonu:</label>
+        <input type="tel" id="tel" required>
+    </br></br>
+    </form>
+    <button onclick="oblicz()">Oblicz</button>
+    <button onclick="wyczysc()">Wyczyść</button>
+    <script>
+        function oblicz(){
+    }
+    function wyczysc(){
+        var nazwa = document.getElementById('nazwa').value = "Zespół Szkół Elektrycznych";
+        var kod = document.getElementById('kod').value = "25-317";
+        var msc = document.getElementById('miejs').value = "Kielce";
+        var ul = document.getElementById('ul').value = "R. Kaczorowskiego";
+        var num = document.getElementById('num').value = "8";
+        var tel = document.getElementById('tel').value = "41 3680570";
+
+    }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zad4</title>
+</head>
+<body>
+    <form>
+        <label>Nazwisko:</label>
+        <input type="text" id="nazwisko" required>
+        <div id = 'cn'></div>
+    </br></br>
+        <label>Imie:</label>
+        <input type="text" id="imie" required>
+        <div id = 'ci'></div>
+    </br></br>
+        <label>E-mail:</label>
+        <input type="email" id="email" required>
+        <div id = 'ce'></div>
+    </br></br>
+    </form>
+    <button type="" onclick="czyok()">Oblicz</button>
+    <script>
+        function czyok(){
+        var sn = document.getElementById("nazwisko").value;
+        var name = document.getElementById('imie').value;
+        var email = document.getElementById("email").value;
+       
+        if (sn == 0){
+            document.getElementById('cn').innerHTML = "Uzupełnij dane!"
+        }
+        if (name == 0){
+            document.getElementById('ci').innerHTML = "Uzupełnij dane!"
+        }
+        if (email == 0){
+            document.getElementById('ce').innerHTML = "Uzupełnij dane!"
+        }
+
+    }
+
+    </script>
+</body>
+</html>

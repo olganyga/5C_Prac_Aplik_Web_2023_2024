@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zad3</title>
+</head>
+<body>
+    <form>
+        <h2>Podaj datę urodzin:</h2>
+        <label>Dzień:</label>
+        <input type="number" id="day" required>
+    </br></br>
+        <label>Miesiąc:</label>
+        <input type="number" id="month" required>
+    </br></br>
+        <label>Rok:</label>
+        <input type="number" id="year" required>
+    </br></br>
+    </form>
+    <button type="" onclick="aid()">Oblicz</button>
+    <script>
+        function aid(){
+        var d = document.getElementById('day').value;
+        var m = document.getElementById('month').value;
+        var y = document.getElementById('year').value;
+
+        var x = 2023 - y
+        var z = 12 - m
+        var n = 30 - d
+
+        result = x * 365 + z*30 + n
+
+        alert('Twój wiek w dniach to: ' + result)
+    }
+
+    </script>
+</body>
+</html>

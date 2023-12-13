@@ -1,0 +1,8 @@
+Zalety:
+- szybsza reakcja na błędy użytkownika
+- redukcja obciążenia serwera poprzez eliminację niepoprawnuch danych jeszcze przed ich wysłaniem
+- poprawa ogólnego doświadczenia użytkownika przez zapewnienie mu wskazówek, jak prwawidłowo wypełnić formularz
+
+Wady:
+- użytkownicy mogą próbować obejść tą walidację i doprowadzić do wprowadzenia błędnych danych
+- jeśli dane są wrażliwe to wyłączna walidacja po stronir klienta może stwarzać ryzyko bezpieczeństwa.
