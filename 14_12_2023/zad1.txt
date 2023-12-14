@@ -1,0 +1,5 @@
+onLoad - Wykonuje JavaScript natychmiast po załadowaniu strony
+onSubmit - Wykonuje JavaScript po przesłaniu formularza
+onMouseClick - Wykonuje JavaScript po kliknięciu myszą
+onMouseOver - Wykonuje JavaScript podczas przesuwania wskaźnika myszy nad obrazem
+onMouseOut - Wykonuje JavaScript podczas przesuwania wskaźnika myszy poza obraz

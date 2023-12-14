@@ -1,0 +1,3 @@
+onMouseOver wywołuje skrypt gdy kursor znajdzie się na 
+elemencie, onMouseDown, gdy przycisk myszy zostaje 
+naciśniety na elemencie.

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zad4</title>
+</head>
+<body>
+    <button id="b" onmouseover="min()" onmouseout="mout()">Test</button>
+    <div id="out"></div>
+    <script>
+        function min(){
+            document.getElementById('out').innerHTML = "Najechałeś kursorem na przycisk";
+        }
+        function mout(){
+            document.getElementById('out').innerHTML = "Kursor opuścił obszar przycisku";
+        }
+    </script>
+</body>
+</html>
